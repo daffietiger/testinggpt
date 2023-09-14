@@ -1,0 +1,103 @@
+.cruise-results-html-population {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.cruise-results-container {
+  width: 75%;
+  margin-top: 100px; 
+  padding: 20px 20px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: auto 0;
+}
+.cruise-result-information {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 275px
+}
+.cruise-result-logo {
+  width: 25%;
+}
+.cruise-result-days-and-price {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.cruise-result-days {
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 5%;
+}
+.cruise-result-price-days-separator {
+  font-size: 25px;
+  font-weight: 400;
+}
+.cruise-result-price {
+  font-size: 25px;
+  margin-left: 5%;
+  font-weight: 500;
+}
+.cruise-result-price em {
+  color: rgb(93, 115, 240);
+  font-weight: 600;
+}
+
+.cruise-result-route {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.cruise-result-shipname {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(63, 63, 63);
+}
+.cruise-result-sailing-dates {
+  margin-top: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.cruise-result-sailing-dates em {
+  font-weight: 600;
+} 
+.cruise-result-button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.cruise-result-explore {
+  width: 40%;
+  height: 50px;
+  background-color: white;
+  color: rgb(93, 115, 240);
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid rgb(93, 115, 240);
+}
+.cruise-result-explore:hover {
+  background-color: rgb(93, 115, 240);
+  color: white;
+}
+.cruise-result-image-container {
+  width: 40%;
+  height: 275px;
+}
+.cruise-result-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+

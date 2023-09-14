@@ -1,0 +1,59 @@
+body {
+  font-family: Raleway;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.site-title {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.site-title em {
+  color: rgb(93, 115, 240);
+}
+.right-header {
+  margin-right: 10px;
+}
+.invite-friends, .profile {
+  border: none;
+  height: 30px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  width: 100px;
+  border-radius: 3px;
+}
+.invite-friends:hover, .profile:hover {
+  background-color: rgb(93, 115, 240);
+  color: white;
+  cursor: pointer;
+}
+.middleheader {
+  width: 1fr;
+}
+.search-for-cruises-button {
+  background-color: rgb(93, 115, 240);
+  width: 400px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: expanded;
+  border-radius: 5px;
+}
+.search-for-cruises-button:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.site-title {
+  cursor: pointer;
+}

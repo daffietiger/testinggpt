@@ -1,0 +1,118 @@
+.search-box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.search-box-field {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 5px;
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+.search-box-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(93, 115, 240);
+}
+.top-section-searchbox {
+  display: flex;
+  justify-content: space-between;
+}
+.search-for-destination {
+  height: 50px;
+  width: 60%;
+  font-size: 25px;
+  padding: 0px 10px;
+  border: 2px solid rgb(134, 149, 233);
+  border-radius: 6px;
+}
+.cruise-length-selections {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  padding-left: 5px;
+  color: rgb(44, 44, 44);
+  border: 2px solid rgb(134, 149, 233);
+  border-radius: 6px;
+}
+.length-input-options {
+  color: black;
+}
+
+.middle-section-searchbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.departure-port-input {
+  height: 50px;
+  width: 50%;
+  font-size: 25px;
+  padding: 0px 10px;
+  border: 2px solid rgb(134, 149, 233);
+  border-radius: 6px;
+}
+.departure-date-input {
+  height: 50px;
+  width: 20%;
+  font-size: 25px;
+  padding: 0px 10px;
+  border: 2px solid rgb(134, 149, 233);
+  border-radius: 6px;
+}
+.bottom-section-searchbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cruise-line-selections {
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  padding-left: 5px;
+  color: rgb(44, 44, 44);
+  border: 2px solid rgb(134, 149, 233);
+  border-radius: 6px;
+}
+.cruise-type-selections {
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  padding-left: 5px;
+  color: rgb(44, 44, 44);
+  border: 2px solid rgb(134, 149, 233);
+  border-radius: 6px;
+}
+.search-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search-button {
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  background-color: rgb(93, 115, 240);
+  border: none;
+  border-radius: 6px;
+}
+.search-button:hover {
+  cursor: pointer;
+  opacity: .8;
+}

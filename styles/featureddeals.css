@@ -1,0 +1,98 @@
+.featured-deals-background {
+  background: url(/images/cruise-ship-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.featured-deals-container {
+  z-index: 1000;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.deal-box-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.featured-deals-title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(93, 115, 240);
+  font-style: italic;
+} 
+
+.deal-box-image {
+  width: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.top-deal-box-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+}
+.deal-box-route-name {
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.deal-box-route-duration {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: grey;
+  font-style: italic;
+  margin-right: 5px;
+}
+.middle-deal-box-details {
+  display: flex;
+  justify-content: left;
+  padding: 0px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.deal-box-departure-port {
+  margin-top: 5px;
+}
+.deal-box-departure-port em {
+  font-weight: bold;
+}
+.bottom-deal-box-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+}
+.deals-box-button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: rgb(93, 115, 240);
+  color: white;
+  margin-bottom: 7px;
+  font-style: italic;
+}
+.deals-box-button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+.all-deals-container {
+  display: flex;
+}
